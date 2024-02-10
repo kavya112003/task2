@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust the width as needed */
+}
+
+label {
+    display: inline-block;
+    width: 100px; /* Adjust the width as needed */
+    margin-bottom: 8px;
+}
+
+input, select {
+    width: calc(100% - 112px); /* Adjusted to account for label width and padding */
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    width: 100%; /* Make the button fill the entire width */
+    padding: 10px; /* Add padding for better appearance */
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
